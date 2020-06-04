@@ -1,3 +1,10 @@
+enum Direction {
+    Up,
+    Down,
+    Left,
+    Right,
+}
+
 fn main()
 {
     let player_direction: Direction = Direction::Up;
